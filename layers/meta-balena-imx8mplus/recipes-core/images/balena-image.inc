@@ -17,6 +17,7 @@ IMAGE_INSTALL:append = " \
     libgpiod \
     libgpiod-tools \
     iotd-imx8p-config \
+    tree \
     "
 IMAGE_INSTALL:remove = "kernel-image"
 IMAGE_INSTALL:remove = "packagegroup-fsl-optee-imx"
