@@ -1,4 +1,51 @@
 - commits:
+    - subject: Update balena-yocto-scripts to a43efa088b39da73ff625ad47edc1eed68b25c99
+      hash: aa42d6f4436358b239c5652823c460b86d019521
+      body: Update balena-yocto-scripts
+      footer:
+        Changelog-entry: Update balena-yocto-scripts to a43efa088b39da73ff625ad47edc1eed68b25c99
+        changelog-entry: Update balena-yocto-scripts to a43efa088b39da73ff625ad47edc1eed68b25c99
+      author: balena-renovate[bot]
+      nested:
+        - commits:
+            - subject: Update actions/checkout action to v6
+              hash: 94a11b9ac52beea5c8ad31f69ab86f9fe00423ac
+              body: |
+                Update actions/checkout from 5.0.0 to 6.0.0
+              footer:
+                Change-type: patch
+                change-type: patch
+              author: balena-renovate[bot]
+              nested: []
+            - subject: Update balena-io/balena-cli to v23.2.0
+              hash: 248b6afef2df0b6cba918edadb805200d3063368
+              body: |
+                Update balena-io/balena-cli from 23.1.2 to 23.2.0
+              footer:
+                Change-type: patch
+                change-type: patch
+              author: balena-renovate[bot]
+              nested: []
+          version: balena-yocto-scripts-1.38.94
+          title: ""
+          date: 2025-11-22T09:43:26.840Z
+        - commits:
+            - subject: Update aws/aws-cli to v2.32.3
+              hash: def39fbf1a9cb409e275234764db7cb1a295f030
+              body: |
+                Update aws/aws-cli from 2.32.2 to 2.32.3
+              footer:
+                Change-type: patch
+                change-type: patch
+              author: balena-renovate[bot]
+              nested: []
+          version: balena-yocto-scripts-1.38.93
+          title: ""
+          date: 2025-11-22T01:31:41.174Z
+  version: 6.5.53+rev50
+  title: ""
+  date: 2025-11-22T13:36:13.104Z
+- commits:
     - subject: Update balena-yocto-scripts to 4f6c5853110697283bfc935cae28ca50f3998e79
       hash: 98bce120c27790c9c8161a7f0f5ca435a4964c0f
       body: Update balena-yocto-scripts
