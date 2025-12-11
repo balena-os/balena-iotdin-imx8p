@@ -1,4 +1,112 @@
 - commits:
+    - subject: Update layers/meta-balena to df3211d5c6f07b9732f5d9a69087bccc0b55d022
+      hash: 3a55759b11e764ca80cd3221a89695e1cdfc617f
+      body: Update layers/meta-balena
+      footer:
+        Changelog-entry: Update layers/meta-balena to df3211d5c6f07b9732f5d9a69087bccc0b55d022
+        changelog-entry: Update layers/meta-balena to df3211d5c6f07b9732f5d9a69087bccc0b55d022
+      author: balena-renovate[bot]
+      nested:
+        - commits:
+            - subject: "networkmanager: update to 1.52.0"
+              hash: 2595dd8712d093d8fd4fc9166da2bfc40c77c038
+              body: >
+                This recipe is taken from meta-openembedded commit
+
+                33fec4b4f47ae5b86f274c352939437b641e7f8d with the only changes
+                being
+
+                that we removed the initd configuration which we don't use, and
+                removed
+
+                tag from the GIT URL because yocto spits an error when both tag
+
+                and SRCREV are used at the same time. Remaining tweaks are
+                handled
+
+                in bbappend.
+
+
+                Fixes #3677
+              footer:
+                Change-type: minor
+                change-type: minor
+                Signed-off-by: Michal Toman <michalt@balena.io>
+                signed-off-by: Michal Toman <michalt@balena.io>
+              author: Michal Toman
+              nested: []
+          version: meta-balena-6.10.0
+          title: ""
+          date: 2025-12-11T12:11:50.125Z
+        - commits:
+            - subject: "renovate.json: Remove custom balena-git package rules"
+              hash: 3b143a83bf6693ff42783f0c7a88107418440c12
+              body: >
+                Since 2533a1a we are no longer versioning or tagging balena
+                commits
+
+                to the engine, so this renovate package rule no longer applies.
+
+
+                Going forward, we will manually bump the commit hash unless we
+                are
+
+                moving to a new upstream tag.
+              footer:
+                Change-type: patch
+                change-type: patch
+                Signed-off-by: Kyle Harding <kyle@balena.io>
+                signed-off-by: Kyle Harding <kyle@balena.io>
+              author: Kyle Harding
+              nested: []
+          version: meta-balena-6.9.6
+          title: ""
+          date: 2025-12-11T01:33:51.039Z
+        - commits:
+            - subject: fix initramfs rootfs script wrong indent
+              hash: 4204dd9590e5bfeb740088ad2285edc67a634986
+              body: ""
+              footer:
+                Change-type: patch
+                change-type: patch
+                Signed-off-by: Yann CARDAILLAC <yann.cardaillac@balena.io>
+                signed-off-by: Yann CARDAILLAC <yann.cardaillac@balena.io>
+              author: Yann CARDAILLAC
+              nested: []
+          version: meta-balena-6.9.5
+          title: ""
+          date: 2025-12-10T18:36:27.261Z
+        - commits:
+            - subject: Update actions/checkout action to v6
+              hash: a9116ae98349e3f2a545f5728f8e803b69344a01
+              body: |
+                Update actions/checkout from v4 to v6
+              footer:
+                Change-type: patch
+                change-type: patch
+              author: balena-renovate[bot]
+              nested: []
+          version: meta-balena-6.9.4
+          title: ""
+          date: 2025-12-10T10:45:18.733Z
+        - commits:
+            - subject: Update actions/setup-python digest to 83679a8
+              hash: 8732123a80a7b55c3d790d17c2dd70777d551a9c
+              body: >
+                Update actions/setup-python to
+                83679a892e2d95755f2dac6acb0bfd1e9ac5d548
+              footer:
+                Change-type: patch
+                change-type: patch
+              author: balena-renovate[bot]
+              nested: []
+          version: meta-balena-6.9.3
+          title: ""
+          date: 2025-12-09T03:13:51.940Z
+  version: 6.10.0
+  title: ""
+  date: 2025-12-11T15:36:32.030Z
+- commits:
     - subject: Update layers/meta-balena to 6bfa26bd140e368e06d72af56cbfc8133f9f0b33
       hash: f93fb8ca19757f83ae1be2f5c02dbb2ce54444d1
       body: Update layers/meta-balena
