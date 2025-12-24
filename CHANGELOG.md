@@ -2,6 +2,11 @@
 
 # v6.0.5
 
+# v6.10.4+rev1
+## (2025-12-24)
+
+* Update meta-compulab-bsp to latest scarthgap [Florin Sarbu]
+
 # v6.10.4
 ## (2025-12-20)
 
