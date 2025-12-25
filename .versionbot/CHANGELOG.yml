@@ -1,4 +1,30 @@
 - commits:
+    - subject: "linux-firmware: Remove Balena created wifi packages"
+      hash: c8c99a3535f21105d226644e84891a816f13404e
+      body: |
+        CompuLab provides its own recipe for an ax200 and ax210 Intel wifi:
+        https://github.com/compulab-yokneam/meta-compulab-bsp/blob/kirkstone/meta-bsp/recipes-bsp/linux-firmware/linux-firmware_%25.bbappend
+
+        After applying these commits:
+        balena-os/meta-balena@f54f198
+        balena-os/meta-balena@2ca4f0e
+
+        the linux-firmware-ax210 created empty;
+        the linux-firmware-ax200 created with bluetooth firmware files only.
+
+        As a result the iotdin-imx8mp balena-image can't work with the CompuLab
+        wifi extension with Intel ax200/ax210.
+      footer:
+        Changelog-entry: "linux-firmware: Remove Balena created wifi packages"
+        changelog-entry: "linux-firmware: Remove Balena created wifi packages"
+        Signed-off-by: Florin Sarbu <florin@balena.io>
+        signed-off-by: Florin Sarbu <florin@balena.io>
+      author: Florin Sarbu
+      nested: []
+  version: 6.10.4+rev2
+  title: ""
+  date: 2025-12-25T12:06:55.765Z
+- commits:
     - subject: Update meta-compulab-bsp to latest scarthgap
       hash: c98a1c6e6e19ee80a81fa30b574e1b5632204871
       body: ""

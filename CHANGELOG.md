@@ -2,6 +2,11 @@
 
 # v6.0.5
 
+# v6.10.4+rev2
+## (2025-12-25)
+
+* linux-firmware: Remove Balena created wifi packages [Florin Sarbu]
+
 # v6.10.4+rev1
 ## (2025-12-24)
 
