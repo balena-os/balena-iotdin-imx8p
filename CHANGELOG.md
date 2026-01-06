@@ -2,6 +2,58 @@
 
 # v6.0.5
 
+# v6.10.10
+## (2026-01-06)
+
+
+<details>
+<summary> Update layers/meta-balena to 7054e72ec48b6e64ad89547b1a4ed44602348efb [balena-renovate[bot]] </summary>
+
+> ## meta-balena-6.10.10
+> ### (2026-01-06)
+> 
+> 
+> <details>
+> <summary> Update balena-supervisor to v17.4.1 [balena-renovate[bot]] </summary>
+> 
+>> ### balena-supervisor-17.4.1
+>> #### (2026-01-05)
+>> 
+>> * backends: Enable configurable power modes and fan profiles for all Jetson Orin devices [Alexandru Costache]
+>> 
+> 
+> </details>
+> 
+> 
+> ## meta-balena-6.10.9
+> ### (2026-01-04)
+> 
+> * kernel-balena.bbclass: Enable DMA-BUF memory heaps [Michal Toman]
+> 
+> ## meta-balena-6.10.8
+> ### (2026-01-01)
+> 
+> 
+> <details>
+> <summary> Update tests/leviathan digest to c2b518d [balena-renovate[bot]] </summary>
+> 
+>> ### leviathan-2.36.79
+>> #### (2025-12-29)
+>> 
+>> * Update Lock file maintenance [balena-renovate[bot]]
+>> 
+>> ### leviathan-2.36.78
+>> #### (2025-12-22)
+>> 
+>> * Update Lock file maintenance [balena-renovate[bot]]
+>> 
+> 
+> </details>
+> 
+> 
+
+</details>
+
 # v6.10.7+rev1
 ## (2026-01-03)
 
