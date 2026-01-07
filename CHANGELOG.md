@@ -2,6 +2,32 @@
 
 # v6.0.5
 
+# v6.10.11
+## (2026-01-07)
+
+
+<details>
+<summary> Update layers/meta-balena to 5d184563c8edc5aeb6815c0e49859fb5259013d4 [balena-renovate[bot]] </summary>
+
+> ## meta-balena-6.10.11
+> ### (2026-01-07)
+> 
+> 
+> <details>
+> <summary> Update balena-supervisor to v17.4.2 [balena-renovate[bot]] </summary>
+> 
+>> ### balena-supervisor-17.4.2
+>> #### (2026-01-06)
+>> 
+>> * Parse multiple child contracts listed under an `or` clause [Christina Ying Wang]
+>> 
+> 
+> </details>
+> 
+> 
+
+</details>
+
 # v6.10.10+rev1
 ## (2026-01-06)
 
