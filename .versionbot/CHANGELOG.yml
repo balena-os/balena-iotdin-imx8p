@@ -1,4 +1,61 @@
 - commits:
+    - subject: Update layers/meta-balena to f9543178d5ecb5b633cc139a0a56ce0b17ecce67
+      hash: 3640e52ee2a82316b3d267bae3903ff24dc6e4c6
+      body: Update layers/meta-balena
+      footer:
+        Changelog-entry: Update layers/meta-balena to f9543178d5ecb5b633cc139a0a56ce0b17ecce67
+        changelog-entry: Update layers/meta-balena to f9543178d5ecb5b633cc139a0a56ce0b17ecce67
+      author: balena-renovate[bot]
+      nested:
+        - commits:
+            - subject: Update actions/setup-python digest to a309ff8
+              hash: 0b7ff6146520a85ba1d3256e30ac4d76766da2d5
+              body: >
+                Update actions/setup-python to
+                a309ff8b426b58ec0e2a45f0f869d46889d02405
+              footer:
+                Change-type: patch
+                change-type: patch
+              author: balena-renovate[bot]
+              nested: []
+          version: meta-balena-6.10.20
+          title: ""
+          date: 2026-01-26T08:08:03.906Z
+        - commits:
+            - subject: Further reduce the size of the balena bootloader by removing PTP clock
+                support
+              hash: 793ab6bf9a64f1a27418c301a5c920454fd75f85
+              body: >
+                This disables support for PTP clock since it's not something
+
+                I foresee us needing in the balena bootloader.
+
+
+                Additionaly, fix the actual bootloader shrinking since the
+                initial
+
+                commit which introduced this did not effectively add the
+                disabling
+
+                of these options to the .config
+              footer:
+                Changelog-entry: Further reduce the size of the balena bootloader by removing
+                  PTP clock support
+                changelog-entry: Further reduce the size of the balena bootloader by removing
+                  PTP clock support
+                Change-type: patch
+                change-type: patch
+                Signed-off-by: Florin Sarbu <florin@balena.io>
+                signed-off-by: Florin Sarbu <florin@balena.io>
+              author: Florin Sarbu
+              nested: []
+          version: meta-balena-6.10.19
+          title: ""
+          date: 2026-01-23T05:03:51.721Z
+  version: 6.10.20
+  title: ""
+  date: 2026-01-26T13:22:39.183Z
+- commits:
     - subject: Update balena-yocto-scripts to c512c72fb79574c4a51e4295d5d5c70d25f601ee
       hash: 972a8c817c3c75ea055a769569c8ec611b3df98f
       body: Update balena-yocto-scripts
