@@ -10,6 +10,7 @@ IMAGE_INSTALL:append = " \
     linux-firmware-ax210 \
     firmware-imx-sdma-imx7d \
     wireless-regdb-static \
+    imx-firmware-mrvl \
     eeprom-util \
     keyctl-caam \
     mbpoll \
