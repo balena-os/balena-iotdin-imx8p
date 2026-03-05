@@ -1,4 +1,4 @@
-SRCREV = "107ce16ffe5b175eb06f35a8920496dd715db238"
+SRCREV = "7d585b5c2e77fcebb9abe2fa660d2fdb74e8fa4f"
 
 SRC_URI:append = " \
 	file://10000-iotdin-imx8p-Increase-default-ENV-size.patch \ 
