@@ -1,4 +1,24 @@
 - commits:
+    - subject: Update u-boot for iotdin-imx8p in order to add new id for Samsung 2G RAM
+      hash: d98b69343f65c01a494caf3c8a82cbede6004316
+      body: |
+        This update adds new id for Samsung 2G RAM on iotdin-imx8p
+
+        Add:
+        d2) Samsung mr5-mr8=[0x01080010]
+      footer:
+        Changelog-entry: Update u-boot for iotdin-imx8p in order to add new id for
+          Samsung 2G RAM
+        changelog-entry: Update u-boot for iotdin-imx8p in order to add new id for
+          Samsung 2G RAM
+        Signed-off-by: Valentin Raevsky <valentin@compulab.co.il>
+        signed-off-by: Valentin Raevsky <valentin@compulab.co.il>
+      author: Valentin Raevsky
+      nested: []
+  version: 6.11.8+rev1
+  title: ""
+  date: 2026-03-05T10:17:34.391Z
+- commits:
     - subject: Update layers/meta-balena to 76525829a7ce8811faf20a1b6f20fef77c53b8c8
       hash: 12fdb2c106e310930b33f8a062a3f958536cfc74
       body: Update layers/meta-balena

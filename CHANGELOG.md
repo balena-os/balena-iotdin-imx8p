@@ -2,6 +2,11 @@
 
 # v6.0.5
 
+# v6.11.8+rev1
+## (2026-03-05)
+
+* Update u-boot for iotdin-imx8p in order to add new id for Samsung 2G RAM [Valentin Raevsky]
+
 # v6.11.8
 ## (2026-03-03)
 
