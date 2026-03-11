@@ -9,3 +9,5 @@ SRC_URI:append = "file://balena.cfg"
 KERNEL_PACKAGE_NAME="kernel"
 
 SCMVERSION="n"
+
+SRCREV = "5df4413189fa9d1f4a08101283401cfc10c80d78"
