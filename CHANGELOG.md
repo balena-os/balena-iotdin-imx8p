@@ -2,6 +2,11 @@
 
 # v6.0.5
 
+# v6.11.10+rev1
+## (2026-03-11)
+
+* linux-compulab: Pin SRC_REV to "5df4413189fa9d1f4a08101283401cfc10c80d78" [Valentin Raevsky]
+
 # v6.11.10
 ## (2026-03-06)
 

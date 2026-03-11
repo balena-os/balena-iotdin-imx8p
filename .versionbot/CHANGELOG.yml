@@ -1,4 +1,21 @@
 - commits:
+    - subject: 'linux-compulab: Pin SRC_REV to
+        "5df4413189fa9d1f4a08101283401cfc10c80d78"'
+      hash: 367882a6c9a80e9d6f0fea319c8e0b54303cd8a3
+      body: ""
+      footer:
+        Changelog-entry: 'linux-compulab: Pin SRC_REV to
+          "5df4413189fa9d1f4a08101283401cfc10c80d78"'
+        changelog-entry: 'linux-compulab: Pin SRC_REV to
+          "5df4413189fa9d1f4a08101283401cfc10c80d78"'
+        Signed-off-by: Valentin Raevsky <valentin@compulab.co.il>
+        signed-off-by: Valentin Raevsky <valentin@compulab.co.il>
+      author: Valentin Raevsky
+      nested: []
+  version: 6.11.10+rev1
+  title: ""
+  date: 2026-03-11T12:20:29.634Z
+- commits:
     - subject: Update layers/meta-balena to 1c606f58f07b6746f6548bcc7c9301482cdced64
       hash: 839c988f70fdff74533468459c2e767b775fd996
       body: Update layers/meta-balena
