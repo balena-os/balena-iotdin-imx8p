@@ -1,4 +1,33 @@
 - commits:
+    - subject: Update contracts to 7225779853a3904517285bd19f7e2be44026c108
+      hash: ba139a13da86b2b28e473a1ada2d17a00f5d4487
+      body: Update contracts
+      footer:
+        Changelog-entry: Update contracts to 7225779853a3904517285bd19f7e2be44026c108
+        changelog-entry: Update contracts to 7225779853a3904517285bd19f7e2be44026c108
+      author: balena-renovate[bot]
+      nested:
+        - commits:
+            - subject: "iot-gate-imx8plus: replace dram size range with explicit dram sizes"
+              hash: 1863899288374bd7ff6b5d42f80480fff11635c9
+              body: >
+                The 1G-8G and 2G-4G slugs could be confused with ranges, so this
+                commit
+
+                replaces them with 1GB or 8GB and 2GB or 4GB.
+              footer:
+                Change-type: patch
+                change-type: patch
+                Signed-off-by: Alex Gonzalez <alexg@balena.io>
+                signed-off-by: Alex Gonzalez <alexg@balena.io>
+              author: Alex Gonzalez
+          version: contracts-2.0.141
+          title: ""
+          date: 2026-03-16T16:10:34.868Z
+  version: 6.12.1+rev1
+  title: ""
+  date: 2026-03-24T10:07:54.612Z
+- commits:
     - subject: Update layers/meta-balena to a41a740681e9ce082f7fe1b5775eb2c3e834b371
       hash: af0b54e5b741791a4a494d6005a23fc4b9601e53
       body: Update layers/meta-balena
