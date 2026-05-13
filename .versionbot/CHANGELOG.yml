@@ -1,4 +1,28 @@
 - commits:
+    - subject: Update to newer revision for iotdin-imx8p
+      hash: 46dca77e1a5cc9d7125484275e471b99b9ccdb23
+      body: >
+        1) Update the CompuLab U-Boot revision.
+
+        This is the latest available U-Boot with the two dram configs: D2D4 and
+        D1D8.
+
+
+        2) Merge all patches that update U-Boot environment into a singe one.
+
+
+        3) Create a configuration fragment instead of U-Boot patch.
+      footer:
+        Changelog-entry: Update to newer revision for iotdin-imx8p
+        changelog-entry: Update to newer revision for iotdin-imx8p
+        Signed-off-by: Valentin Raevsky <valentin@compulab.co.il>
+        signed-off-by: Valentin Raevsky <valentin@compulab.co.il>
+      author: Valentin Raevsky
+      nested: []
+  version: 7.0.1+rev1
+  title: ""
+  date: 2026-05-13T07:48:10.466Z
+- commits:
     - subject: Update layers/meta-balena to f9a1cd0090e778084298dfc8b68f0b74286ffb47
       hash: 32dba22ba0c426c56e79eac297e73f3413523d9f
       body: Update layers/meta-balena
