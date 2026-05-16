@@ -1,4 +1,19 @@
 - commits:
+    - subject: Update balena-os/github-workflows to
+        25e5b0d2d7bdd26b714368c326c939f5e5692d89
+      hash: d27c7d42e1df2bb24df1a8af57f52e85b6c6e98b
+      body: Update balena-os/github-workflows
+      footer:
+        Changelog-entry: Update balena-os/github-workflows to
+          25e5b0d2d7bdd26b714368c326c939f5e5692d89
+        changelog-entry: Update balena-os/github-workflows to
+          25e5b0d2d7bdd26b714368c326c939f5e5692d89
+      author: balena-renovate[bot]
+      nested: []
+  version: 7.0.1+rev2
+  title: ""
+  date: 2026-05-16T14:20:52.922Z
+- commits:
     - subject: Update to newer revision for iotdin-imx8p
       hash: 46dca77e1a5cc9d7125484275e471b99b9ccdb23
       body: >
