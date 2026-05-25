@@ -2,6 +2,21 @@
 
 # v6.0.5
 
+# v7.0.6+rev1
+## (2026-05-25)
+
+
+<details>
+<summary> Update balena-yocto-scripts to 1df9bbe8d72fff7b71c71151d74dd64094971b30 [balena-renovate[bot]] </summary>
+
+> ## balena-yocto-scripts-1.39.35
+> ### (2026-05-16)
+> 
+> * build/barys: Add Wrynose build support [Alexandru Costache]
+> 
+
+</details>
+
 # v7.0.6
 ## (2026-05-25)
 
