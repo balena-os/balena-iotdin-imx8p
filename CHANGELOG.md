@@ -2,6 +2,21 @@
 
 # v6.0.5
 
+# v7.0.6+rev3
+## (2026-06-23)
+
+
+<details>
+<summary> Update contracts to 9fe86f23e02c5d438a96ab3209239dcb5df4dc5b [balena-renovate[bot]] </summary>
+
+> ## contracts-2.0.144
+> ### (2026-05-19)
+> 
+> * hw.device-type/beaglebone-ai64: Add the beaglebone-ai-64 alias to align with its device repo definition [Thodoris Greasidis]
+> 
+
+</details>
+
 # v7.0.6+rev2
 ## (2026-06-10)
 
