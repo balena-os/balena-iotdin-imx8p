@@ -1,4 +1,19 @@
 - commits:
+    - subject: Update balena-os/github-workflows to
+        08a88ee3ca2a070d59140fa334be2784f17918e0
+      hash: 3706378f58a8f91a777f5d6844783ae99e3079c3
+      body: Update balena-os/github-workflows
+      footer:
+        Changelog-entry: Update balena-os/github-workflows to
+          08a88ee3ca2a070d59140fa334be2784f17918e0
+        changelog-entry: Update balena-os/github-workflows to
+          08a88ee3ca2a070d59140fa334be2784f17918e0
+      author: balena-renovate[bot]
+      nested: []
+  version: 8.0.9+rev1
+  title: ""
+  date: 2026-09-10T17:58:27.666Z
+- commits:
     - subject: Update layers/meta-balena to 52a7cea12239941bcf068a78c960e11093db289c
       hash: 72a2038e8c4500b4751969ce217e3e9d3719df0d
       body: Update layers/meta-balena
