@@ -2,6 +2,190 @@
 
 # v6.0.5
 
+# v8.0.9
+## (2026-09-10)
+
+
+<details>
+<summary> Update layers/meta-balena to 52a7cea12239941bcf068a78c960e11093db289c [balena-renovate[bot]] </summary>
+
+> ## meta-balena-8.0.9
+> ### (2026-09-07)
+> 
+> * kernel-headers-test: Pin apt to the snapshot archive [Kyle Harding]
+> * kernel-headers-test: Replace deprecated balenalib base with debian:bullseye [Kyle Harding]
+> * .gitmodules: Declare a branch for every submodule [Kyle Harding]
+> 
+> ## meta-balena-8.0.8
+> ### (2026-09-03)
+> 
+> * docs: Fix obsolete link to application update locking documentation [Ken Bannister]
+> 
+> ## meta-balena-8.0.7
+> ### (2026-09-03)
+> 
+> * initrdscripts: more robustness looking for active root [Michal Toman]
+> 
+> ## meta-balena-8.0.6
+> ### (2026-09-02)
+> 
+> 
+> <details>
+> <summary> Update tests/leviathan digest to a0fb22f [balena-renovate[bot]] </summary>
+> 
+>> ### leviathan-2.36.131
+>> #### (2026-09-01)
+>> 
+>> * Update actions/checkout action to v7 [balena-renovate[bot]]
+>> 
+>> ### leviathan-2.36.130
+>> #### (2026-09-01)
+>> 
+>> * Update balena-io/balena-cli to v25.2.6 [balena-renovate[bot]]
+>> 
+>> ### leviathan-2.36.129
+>> #### (2026-09-01)
+>> 
+>> * Update debian:bullseye-slim Docker digest to e5b6442 [balena-renovate[bot]]
+>> 
+>> ### leviathan-2.36.128
+>> #### (2026-09-01)
+>> 
+>> * Update flowzonify to v0.4.2 [balena-renovate[bot]]
+>> 
+>> ### leviathan-2.36.127
+>> #### (2026-09-01)
+>> 
+>> * Update core/contracts digest to 93b3001 [balena-renovate[bot]]
+>> 
+>> ### leviathan-2.36.126
+>> #### (2026-09-01)
+>> 
+>> * Update GitHub Actions [balena-renovate[bot]]
+>> 
+>> ### leviathan-2.36.125
+>> #### (2026-09-01)
+>> 
+>> * Update docker/dockerfile:1 Docker digest to ecfaec9 [balena-renovate[bot]]
+>> 
+> 
+> </details>
+> 
+> 
+> ## meta-balena-8.0.5
+> ### (2026-09-01)
+> 
+> * Update flowzonify to v0.4.2 [balena-renovate[bot]]
+> 
+> ## meta-balena-8.0.4
+> ### (2026-08-26)
+> 
+> * hostapp.yml: Set network_mode none on the hostapp service [Christina Ying Wang]
+> 
+> ## meta-balena-8.0.3
+> ### (2026-08-24)
+> 
+> * balena-bootloader.bbclass: Move common bits from devices to class [Michal Toman]
+> 
+> ## meta-balena-8.0.2
+> ### (2026-08-21)
+> 
+> * distro:balena-os.inc: Remove gobject-introspection-data from DISTRO_FEATURES [Florin Sarbu]
+> 
+> ## meta-balena-8.0.1
+> ### (2026-08-20)
+> 
+> * balena: use AtomicWriteFile to save volume options [Kyle Harding]
+> 
+> ## meta-balena-8.0.0
+> ### (2026-08-17)
+> 
+> * image_types_balena: force 4K block size for resin-state ext4 [guille-vega]
+> * Increase default boot, root and state partition sizes [guille-vega]
+> 
+> ## meta-balena-7.9.6
+> ### (2026-08-17)
+> 
+> 
+> <details>
+> <summary> Update tests/leviathan digest to 4ae6a0e [balena-renovate[bot]] </summary>
+> 
+>> ### leviathan-2.36.124
+>> #### (2026-08-15)
+>> 
+>> * Update debian:bullseye-slim Docker digest to f313b4b [balena-renovate[bot]]
+>> 
+>> ### leviathan-2.36.123
+>> #### (2026-08-15)
+>> 
+>> * Update core/contracts digest to 410a252 [balena-renovate[bot]]
+>> 
+>> ### leviathan-2.36.122
+>> #### (2026-08-15)
+>> 
+>> * Update alpine Docker tag to v3.24.1 [balena-renovate[bot]]
+>> 
+>> ### leviathan-2.36.121
+>> #### (2026-08-14)
+>> 
+>> * Core: worker: fix error with custom DT [Ryan Cooke]
+>> 
+> 
+> </details>
+> 
+> 
+> ## meta-balena-7.9.5
+> ### (2026-08-16)
+> 
+> * workflows: Pin yocto-scripts submodule to master [Kyle Harding]
+> 
+> ## meta-balena-7.9.4
+> ### (2026-08-11)
+> 
+> * hostapp: Add deploy assets to hostapp composition [Kyle Harding]
+> 
+> ## meta-balena-7.9.3
+> ### (2026-08-08)
+> 
+> * balena-extension-runtime: do not duplicate binary [Alex Gonzalez]
+> * balena-extension-runtime: update to v1.2.1 [Alex Gonzalez]
+> 
+> ## meta-balena-7.9.2
+> ### (2026-08-07)
+> 
+> * extra-udev-rules: Disable power management on mlan* wireless network interfaces [Florin Sarbu]
+> 
+> ## meta-balena-7.9.1
+> ### (2026-08-07)
+> 
+> * recipes-containers/balena-extension-runtime: Enable Wrynose builds [Alexandru Costache]
+> 
+> ## meta-balena-7.9.0
+> ### (2026-08-04)
+> 
+> * docs: update hostapp extensions kernel abi compatibility section [Alex Gonzalez]
+> * balena-hostapp-extension: add class [Alex Gonzalez]
+> * kernel-override-hooks: add recipe [Alex Gonzalez]
+> * os-helpers-extensions: use kernel image hash as kernel-abi-id [Alex Gonzalez]
+> * os-helpers-bootenv: leave hup variables to bootloaders hooks [Alex Gonzalez]
+> * rollback-health: use standard os logging [Alex Gonzalez]
+> * initrdscripts(abroot): kernel selection [Alex Gonzalez]
+> * balena-image-bootloader-initramfs: add mount data stage [Alex Gonzalez]
+> * initrdscript: add stage2 data partition mount [Alex Gonzalez]
+> 
+> ## meta-balena-7.8.1
+> ### (2026-08-01)
+> 
+> * initrdscripts: check alignment of data partition in resindataexpander [Michal Toman]
+> 
+> ## meta-balena-7.8.0
+> ### (2026-07-29)
+> 
+> * mobynit: update to v1.1.0 [Alex Gonzalez]
+> 
+
+</details>
+
 # v7.7.2+rev1
 ## (2026-08-26)
 
