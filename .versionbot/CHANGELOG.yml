@@ -1,4 +1,71 @@
 - commits:
+    - subject: Update contracts to 93b30010e7441051d361fa319a6e395f5a3c94f4
+      hash: 2192427da1555cc76a0e55ab42f6261d9b4e8ec8
+      body: Update contracts
+      footer:
+        Changelog-entry: Update contracts to 93b30010e7441051d361fa319a6e395f5a3c94f4
+        changelog-entry: Update contracts to 93b30010e7441051d361fa319a6e395f5a3c94f4
+      author: balena-renovate[bot]
+      nested:
+        - commits:
+            - subject: "revpi-connect-4: remove led"
+              hash: a6cc5e7131ccc62e886d95f16001d98a59ad3303
+              body: |
+                This device type has no LED.
+              footer:
+                Relates-to: https://balena.zulipchat.com/#narrow/channel/345889-balena-io.2Fos/topic/raspberrypi.20pipeline/near/619759972
+                relates-to: https://balena.zulipchat.com/#narrow/channel/345889-balena-io.2Fos/topic/raspberrypi.20pipeline/near/619759972
+                Change-type: patch
+                change-type: patch
+                Signed-off-by: Alex Gonzalez <alexg@balena.io>
+                signed-off-by: Alex Gonzalez <alexg@balena.io>
+              author: Alex Gonzalez
+          version: contracts-2.0.149
+          title: ""
+          date: 2026-08-28T11:23:48.697Z
+        - commits:
+            - subject: "hw.device-type: Update Orin boards L4T version to 39.2.0"
+              hash: ebae4da834d1e4efe16b41718189ae26005af527
+              body: ""
+              footer:
+                Change-type: patch
+                change-type: patch
+                Signed-off-by: Alexandru Costache <alexandru@balena.io>
+                signed-off-by: Alexandru Costache <alexandru@balena.io>
+              author: Alexandru Costache
+          version: contracts-2.0.148
+          title: ""
+          date: 2026-08-24T18:52:54.835Z
+        - commits:
+            - subject: Add device family and manufacturer metadata
+              hash: a74ddb06557df9e0c19f8201d095be10828ef47a
+              body: ""
+              footer:
+                Change-type: patch
+                change-type: patch
+                Signed-off-by: Pranas Ziaukas <pranas@balena.io>
+                signed-off-by: Pranas Ziaukas <pranas@balena.io>
+              author: Pranas Ziaukas
+          version: contracts-2.0.147
+          title: ""
+          date: 2026-08-04T04:57:52.384Z
+        - commits:
+            - subject: Modify existing device family and manufacturer metadata
+              hash: cd120576e7c0f021b84c1e81096c188862a144df
+              body: ""
+              footer:
+                Change-type: patch
+                change-type: patch
+                Signed-off-by: Pranas Ziaukas <pranas@balena.io>
+                signed-off-by: Pranas Ziaukas <pranas@balena.io>
+              author: Pranas Ziaukas
+          version: contracts-2.0.146
+          title: ""
+          date: 2026-07-16T13:59:26.149Z
+  version: 8.0.9+rev2
+  title: ""
+  date: 2026-09-11T00:13:37.193Z
+- commits:
     - subject: Update balena-os/github-workflows to
         08a88ee3ca2a070d59140fa334be2784f17918e0
       hash: 3706378f58a8f91a777f5d6844783ae99e3079c3

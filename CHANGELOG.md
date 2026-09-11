@@ -2,6 +2,36 @@
 
 # v6.0.5
 
+# v8.0.9+rev2
+## (2026-09-11)
+
+
+<details>
+<summary> Update contracts to 93b30010e7441051d361fa319a6e395f5a3c94f4 [balena-renovate[bot]] </summary>
+
+> ## contracts-2.0.149
+> ### (2026-08-28)
+> 
+> * revpi-connect-4: remove led [Alex Gonzalez]
+> 
+> ## contracts-2.0.148
+> ### (2026-08-24)
+> 
+> * hw.device-type: Update Orin boards L4T version to 39.2.0 [Alexandru Costache]
+> 
+> ## contracts-2.0.147
+> ### (2026-08-04)
+> 
+> * Add device family and manufacturer metadata [Pranas Ziaukas]
+> 
+> ## contracts-2.0.146
+> ### (2026-07-16)
+> 
+> * Modify existing device family and manufacturer metadata [Pranas Ziaukas]
+> 
+
+</details>
+
 # v8.0.9+rev1
 ## (2026-09-10)
 
